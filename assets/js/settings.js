@@ -21,6 +21,7 @@ $(function() {
             title: form.title,
             description: form.description,
             boardList: form.boardList,
+            position: form.position,
             titleValue: '',
             descriptionValue: ''
         };

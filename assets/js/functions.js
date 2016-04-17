@@ -327,6 +327,7 @@ var api = (function() {
             desc: data['card-description'],
             date: null,
             idList: data['list'],
+            pos: data['position'],
             urlSource: null
         }, function(success) {
             // close the window on success
